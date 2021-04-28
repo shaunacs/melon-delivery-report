@@ -1,4 +1,6 @@
 def print_delivery_total_price(day, day_file):
+    """Takes in the day number and melon data, and
+    prints the number of melons delivered at what price"""
     print(f'Day {day}')
     the_file = open(day_file)
     for line in the_file:
